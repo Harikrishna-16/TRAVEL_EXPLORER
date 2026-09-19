@@ -27,11 +27,11 @@ app.register_blueprint(feedback_blueprint, url_prefix="/api/feedback")
 
 
 
-host = "bytexldb.com"
+host = "db01.dbhost.dev"
 port = 5050
-database = "db_43fkcgag8"
-username = "user_43fkcgag8"
-password = "p43fkcgag8"
+database = "db_453qstwyd"
+username = "user_453qstwyd"
+password = "p453qstwyd"
 
 connection_string = f"mongodb://{username}:{password}@{host}:{port}/{database}"
 my_client = MongoClient(connection_string)
